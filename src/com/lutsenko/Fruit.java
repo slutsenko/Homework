@@ -11,6 +11,7 @@ public class Fruit {
     private int weight; // вес в граммах
     private double price; // цена за кг
 
+
     public double calculatePrice() {
         return price * weight / 1000;
     }
